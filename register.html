@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/function.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+
+<body style="background-color:black;">
+
+    <!--#####################################################################################################################-->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <div class="container">
+            <div style="margin-right: 30px;">
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto" style="width: 100%;">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="http://localhost/d/index.html"><img
+                                    src="https://img.icons8.com/color/2x/small-business.png" style="height: 48px; width: 48px;">
+                                &nbsp;หน้าแรก</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active "
+                                href="https://drive.google.com/file/d/190hD5j8QvTNYCqXd6WEcnznph6nxQ95T/view?usp=sharing"><img
+                                    src="https://img.icons8.com/color/2x/low-priority.png" style="height: 48px; width: 48px;">
+                                &nbsp;ดาวน์โหลด</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="https://www.facebook.com/groups/WarZ11"><img
+                                    src="https://img.icons8.com/color/2x/circus-tent.png" style="height: 48px; width: 48px;">
+                                &nbsp; กลุ่ม</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="http://localhost/d/Register.html"><img
+                                    src="https://img.icons8.com/color/2x/add-rule.png" style="height: 48px; width: 48px;">
+                                &nbsp; สมัครสมาชิก</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="http://localhost/d/index.html"><img
+                                    src="https://img.icons8.com/color/2x/initiate-money-transfer.png" style="height: 48px; width: 48px;">
+                                &nbsp; เติมเงิน</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+    </nav>
+
+    <div class="card text-white bg-dark col-md-center" align="center" style="margin-bottom: 10px;">
+        <div class="card-header" style="padding: 5px;">
+            <b><i class="fa fa-signal"></i> STATUS WEBSITE</b> <small></small>
+        </div>
+        <div class="card-body" align="center">
+            <div style="font-size: 18px;"><i class="fa fa-gamepad"></i> Status website : <span class="text-success"><b>
+                        <i class="fa fa-circle-o-notch fa-spin text-success"> </i> ออนไลน์ <i class="fa fa-check"></i>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <form action="process.php"  method="POST"  name="form1" id="form1"  >
+        
+        <div class="col-mx-auto">
+            <div class="card text-white bg-dark" align="center" style="margin-bottom: 10px;">
+                <div class="card-header" style="padding: 5px;">
+                    <b><i class="fa fa-user-plus"></i> REGISTER</b> <small></small>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3">
+                            <div id="register-form">
+                                <input type="hidden" name="action" value="register">
+                                <div class="form-group">
+                                    <label for="username"><i class="fa fa-user"></i> Username :</label>
+                                    <input class="form-control  " type="text" name="username" id="username"
+                                        placeholder="ชื่อสมาชิก">
+                                    <label for="password"><i class="fa fa-lock"></i> Password :</label>
+                                    <input class="form-control  " type="password" name="password" id="password"
+                                        placeholder="รหัสผ่านบัญชี">
+                                    <label for="re_password"><i class="fa fa-lock"></i> Re-Password :</label>
+                                    <input class="form-control " type="password" name="re_password" id="re_password"
+                                        placeholder="รหัสผ่านบัญชีอีกครั้ง">
+                                    <label for="phone_number"><i class="fa fa-lock"></i> Phone Number:</label>
+                                    <input class="form-control " type="tel" name="phone_number" id="phone_number"
+                                        placeholder="เบอร์โทรศัพท์">
+                                    <label for="Email"><i class="fa fa-lock"></i> Email:</label>
+                                    <input class="form-control " type="email" name="email" id="email"
+                                        placeholder="อีเมล์">
+                                </div>
+
+                            </div>
+                            <br>
+                            
+                            <input class="btn btn-danger   " type="submit"   onclick="checkregis()"  value="สมัครสมาชิก">
+                            <a class="btn btn-info btn-block "
+                                href="file:///C:/Users/matawadee/Desktop/web_Pro/index.html"><i
+                                    class="fa fa-arrow-left hvr-icon" style=""></i>
+                                กลับไปยังหน้าแรก</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </form>
+    
+</body>
+
+</html>

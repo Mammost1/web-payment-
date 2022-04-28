@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web</title>
+	<link rel="stylesheet" type="text/css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<!--link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"-->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<script src="js/function.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+</head>
+
+<body style="background-color:black;">
+	<form name="formlogin" action="checklogin.php" method="POST" id="login" class="form-horizontal">
+		<!--#####################################################################################################################-->
+
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+			<div class="container">
+				<div style="margin-right: 30px;">
+
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto" style="width: 100%;">
+							<li class="nav-item">
+								<a class="nav-link active" href="http://localhost/d/index.html"><img src="https://img.icons8.com/color/2x/small-business.png" style="height: 48px; width: 48px;">
+									&nbsp;หน้าแรก</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active " href="https://drive.google.com/file/d/190hD5j8QvTNYCqXd6WEcnznph6nxQ95T/view?usp=sharing"><img src="https://img.icons8.com/color/2x/low-priority.png" style="height: 48px; width: 48px;">
+									&nbsp;ดาวน์โหลด</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active " href="https://www.facebook.com/groups/WarZ11"><img src="https://img.icons8.com/color/2x/circus-tent.png" style="height: 48px; width: 48px;">
+									&nbsp; กลุ่ม</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active " href="http://localhost/d/Register.html"><img src="https://img.icons8.com/color/2x/add-rule.png" style="height: 48px; width: 48px;">
+									&nbsp; สมัครสมาชิก</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active " href="http://localhost/d/index.html"><img src="https://img.icons8.com/color/2x/initiate-money-transfer.png" style="height: 48px; width: 48px;">
+									&nbsp; เติมเงิน</a>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+		</nav>
+
+		<div class="card text-white bg-dark col-md-center" align="center" style="margin-bottom: 10px;">
+			<div class="card-header" style="padding: 5px;">
+				<b><i class="fa fa-signal"></i> STATUS WEBSITE</b> <small></small>
+			</div>
+			<div class="card-body" align="center">
+				<div style="font-size: 18px;"><i class="fa fa-gamepad"></i> Status website : <span class="text-success"><b>
+							<i class="fa fa-circle-o-notch fa-spin text-success"> </i> ออนไลน์ <i class="fa fa-check"></i>
+
+				</div>
+			</div>
+		</div>
+		<br>
+
+		<div class="container">
+			<div class="row" style="">
+				<marquee style="color:white;">🔊ıllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılııllılı</marquee>
+				<div class="col-md-4" style="color:white ">
+					<div class="card-header slash bg-dark" style="margin-top: 0px;border-radius: 0px;border-bottom: solid 5px rgb(153, 49, 250);font-size:18px!important">
+						<img src="https://img.icons8.com/bubbles/2x/knowledge-transfer.png" style="height: 40px; width: 40px;">&nbsp; Member | สมาชิก
+					</div>
+
+					<div class="card bg-dark" style="margin-top: rgb(0, 0, 0) ;border-radius: 0px;border: 3px;">
+						<div class="card-body" style="text-align:center;">
+
+							<label for="username"><b>Username </b></label>
+
+
+							<div class="input-group mb-3" type="text" name="username" style="width: 100%">
+
+								<div class="input-group-prepend">
+									<span class="basic-addon1"></span>
+								</div>
+								<input type="text" class="form-control lp-input" name="username" placeholder="กรอกไอดีเกมส์">
+							</div>
+
+							<label for="password"><b>Password</b></label>
+							<div class="input-group mb-3" name="password" style="width: 100%">
+								<div class="input-group-prepend">
+									<span class="basic-addon1"></span>
+								</div>
+								<input type="password" class="form-control lp-input" name="password" placeholder="กรอกรหัสผ่าน">
+							</div>
+							<button type="submit" class="btn btn-primary text-white" name="type" style="border-radius: 00px;" value="login">
+								<i class="fa fa-sign-in"></i> เข้าสู่ระบบ</button>
+
+							<a href="#" class="btn btn-warning text-white " style="border-radius: 0px;">สมัครสมาชิก </a>
+
+
+
+
+
+                           
+						</div>
+					</div>
+
+
+
+					<div class="card border-secondary bg-dark">
+						<div class="card-header bg-dark text-white btn-line-b red_line" style="color:black;"><i class="fa fa-phone fa-lg"></i> Contact</div>
+						<div class="card-body bg-dark" style="text-align:center;">
+							<a class="btn btn-info" target="_blank" data-toggle="tooltip" data-placement="top" title="facebook" style="color:black;width:45px;height:45px;padding-top:2px;font-size:28px;" href="https://www.facebook.com/zroyalz/"><i class="fa fa-facebook"></i></a>
+							<a class="btn btn-primary" target="_blank" data-toggle="tooltip" data-placement="bottom" title="discord" style="color:black;width:45px;height:45px;padding-top:0px;padding-left:1.2px;font-size:28px;" href="https://discord.gg/HyXJZPWU"><img src="discord.png" style="margin-bottom:5px;width:135%;"></a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-8 bg-dark" style="margin-top: 10px ;border-top: solid 10px rgb(41, 41, 41);border-bottom: solid 10px rgb(41, 41, 41);">
+					<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="rust1.png" class="d-block w-100">
+							</div>
+							<div class="carousel-item">
+								<img src="rust2.jpg" class="d-block w-100">
+							</div>
+							<div class="carousel-item">
+								<img src="warz.jpg" class="d-block w-100">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+				<br />
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+		</div>
+		</div>
+
+
+		<div id="footer" style="margin-top:100px;">
+			<div style="margin-top:0;min-height:0px;border-top:2px solid rgb(29, 29, 29);position: relative;background: rgb(29, 28, 28)!important;min-width:919px;padding-left:20px;padding-right:20px;">
+
+				<div class="contx" style="padding-top:20px;padding-bottom:20px;">
+					<div class="row">
+						<div class="col-6">
+							<div style="color:white; margin-bottom:0px;nax-width:100%;">
+								<p style="text-indent: 30px;">
+									ยินดีต้อนรับเข้าสู่เว็บไซต์ของทางเรา มีปัญหาด้านใดสามารถติดต่อได้ทางช่องทาง Contact ต่างๆของเรา ทางเรายินดีให้บริการทุกด้าน ตลอด 24 ชม. หากลูกค้าท่านใดติดปัญหาสามารถติดต่อทีมงานได้ตลอด ไม่ว่าจะทาง Facebook,Discord,Groups ทางเรามีทีมงานที่สามารถตอบใกล้ได้ตลอดเวลา 24 ชม. หากทีมงานของเราผิดพลาดประการใดก็ขออภัยมา ณ ที่นี้ด้วยนะคะ ขอบพระคุณลูกค้าที่ติดตามและสนับสนุนทางเรามาโดยตลอด ขอบคุณคะ ทีมงานมีกำลังใจมากขึ้นในการทำงาน ถึงแม้เราจะไม่ประสบความสำเร็จแบบเต็ม 100% ทางเราก็ดีใจที่คุณลูกค้าได้มาอุดหนุนเรา เราจะพัฒนาเว็บไซต์ของเราให้ดีที่สุด และจะไม่หยุดพัฒนา เราจะทำต่อไปเรื่อยๆจนกว่าจะไม่มีผู้ใช้งานเว็บไซต์ของเรา
+								</p>
+							</div>
+						</div>
+
+						<div class="col-6 bg-dark">
+							<div class="card-header bg-white" style="padding: 0px;">
+								<b><i class="fa fa-facebook-official text-black"></i> FANPAGE</b>
+							</div>
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F7triple&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="700" height="120" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</form>
+</body>
+
+</html>
